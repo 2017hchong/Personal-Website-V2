@@ -1,0 +1,174 @@
+.imageCont {
+    width: 55%;
+    display: inline-block;
+}
+.experience {
+    margin-bottom: 100px;
+}
+.imagePadRight {
+    padding-right: 83px;
+}
+.imagePadLeft {
+    padding-left: 83px;
+}
+.descriptionCont {
+    /*width: auto;*/
+    text-align: left;
+    position: relative;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.width45 {
+    width: 45%;
+    margin-bottom: 35px;
+}
+.projectCont {
+    display: flex;
+    margin-bottom: 113px;
+}
+.titleRow {
+    display: flex;
+
+}
+.bottomFloat {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bottomFloat-right {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.projDescription {
+    margin-top: 24px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFA;
+}
+.projTech {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    /*float: left;*/
+
+    align-items: flex-end;
+
+    /*float: bottom;*/
+    color: #F3C435;
+
+}
+.projTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFA;
+}
+.projType {
+    margin-left: 33px;
+    margin-top: 5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(209, 46, 112, 0.85);
+}
+
+.shadow {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img {
+    max-width:100%;
+    max-height:100%;
+}
+.imgMain {
+    min-width:100%;
+    min-height:100%;
+}
+
+.otherImgs{
+    /*height: 83px;*/
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.otherImgPad{
+    height: 83px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.mainImg {
+    height: 323px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.caret {
+    position: absolute;
+    right: 10px;
+
+    border-radius: 2px;
+}
+
+.caret-unhover {
+    background-color: rgba(196, 196, 196, 0.32);
+}
+.caret-hover {
+    background-color: rgba(196, 196, 196, 0.52);
+}
+.otherImgHover {
+    opacity: 0.8;
+}
+
+.logos {
+    margin-bottom: 8px;
+
+    display: flex;
+    float: bottom;
+}
+.gitlogo {
+    min-width: 100%;
+    min-height: 100%;
+}
+/*.logoPadding {*/
+/*}*/
+
+.flex-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.flex-col {
+    width: 48%;
+    height: 100px;
+}
+.flexGridImg {
+
+}

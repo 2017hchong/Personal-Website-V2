@@ -1,38 +1,189 @@
 .App {
   text-align: center;
 }
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  font-family: 'Jaldi', sans-serif;
+  background-color: #111122;
+  color: #FFFFFA;
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-regular {
+    font-style: normal;
+    font-weight: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-bold {
+    font-style: normal;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.yellowColor {
+    color: #F3C435;
+}
+.whiteColor {
+    color: #FFFFFA;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-16 {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 16px;
+}
+.font-34 {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 34px;
+}
+.font-32 {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 34px;
+    line-height: 54px;
+}
+.underline {
+    border-bottom: 3px solid #F3C435;
+}
+.underline-background {
+    border-bottom: 3px solid #111122;
+
+}
+.navPages {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.navbar{
+    background-color: #111122 !important;
+}
+.navbar-brand {
+    color: #F3C435 !important;
+    font-size: 34px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav {
+    padding-right: 30px;
+    padding-top: 33px;
+}
+
+.logo {
+    /*position: absolute;*/
+    /*width: 191px;*/
+    /*height: 44px;*/
+    /*left: 3%;*/
+    /*top: 23px;*/
+
+    padding-top: 23px;
+    font-size: 34px;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.page {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*       Side Bar       */
+.sidebar {
+    position: fixed;
+    right: -220px;
+    top: 536px;
+    /*width: 505px;*/
+    color: #F3C435;
+}
+.rotate {
+    transform: rotate(90deg);
+}
+.inline {
+    display: inline-block;
+}
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: #F3C435;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.line {
+    display: inline-block;
+    margin-left: 35px;
+    width: 164px;
+    border: 2px solid rgba(243, 196, 53, 0.6);
+    background-color: rgba(243, 196, 53, 0.6);
+}
+
+.madeBy {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    height: 47px;
+
+    bottom: 14px;
+}
+
+.myNameBottom {
+    display: inline-block;
+    background: rgba(255, 255, 250, 0.2);
+    /*filter: blur(15px);*/
+    /*backdrop-filter: blur(10px);*/
+    /* Note: backdrop-filter has minimal browser support */
+    margin: 0 auto;
+
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+
+    padding-top: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 9px;
+
+    color: #F3C435;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #F3C435;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #F3C435;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #D12E70 !important;
+    text-decoration: none !important;
+}
+
+/* selected link */
+a:active {
+    color: #F3C435;
+    text-decoration: none;
 }

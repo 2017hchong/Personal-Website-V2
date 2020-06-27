@@ -1,0 +1,107 @@
+/*      Landing       */
+.landing {
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.title {
+    position: absolute;
+    width: 765px;
+    height: 446px;
+    /*left: 168px;*/
+    top: 182px;
+
+    background: rgba(17, 17, 34, 0.5);
+    /*margin-top: 250px;*/
+    /*position: relative;*/
+    /*!*margin-left: 168px;*!*/
+    /*!*left: 168px;*!*/
+    /*!*position: absolute;*!*/
+    /*width: 765px;*/
+    /*height: 453px;*/
+    /*!*left: 188px;*!*/
+    /*!*top: 250px;*!*/
+    /*background: rgba(17, 17, 34, 0.5);*/
+    /*!*background: white;*!*/
+}
+.hiText {
+    position: absolute;
+    top: 7px;
+    left: 26px;
+    font-size: 50px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 250, 0.5);
+}
+.myName {
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    font-size: 140px;
+    line-height: 237px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.description {
+    position: absolute;
+    top: 235px;
+    right: 24px;
+    float:right;
+    /*padding-left: 206px;*/
+    font-size: 48px;
+    line-height: 81px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    text-align: right;
+    color: rgba(255, 255, 250, 0.5);
+}
+.word {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 118px;
+
+}
+
+.wordNoHover{
+    color: rgba(255, 255, 250, 0.05);
+}
+.wordHover {
+    color: rgba(255, 255, 250, 0.35);
+}
+
+.wordsRow{
+    /*position: absolute;*/
+    /*width: 125%;*/
+    /*!*height: 740px;*!*/
+
+    /*left: -5%;*/
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow:hidden;
+    height: 120px;
+}
+.wordsContainer{
+    height: 740px;
+    overflow:hidden;
+
+    position: absolute;
+    width: 200%;
+
+    left: -5%;
+    top: 61px;
+
+    display: flex;
+    flex-direction: column;
+}

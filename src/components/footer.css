@@ -1,0 +1,41 @@
+.footer-contact {
+    justify-content: left;
+    padding-top: 64px;
+
+    display: flex;
+    flex-direction: column;
+}
+.footer-title {
+    text-align: left;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 54px;
+    color: #F3C435;
+
+    margin-bottom: 61px;
+}
+.footer {
+    background-color: rgba(57, 57, 170, 0.6);
+}
+.footer-description{
+    justify-content: left;
+    text-align: left;
+
+    width: 532px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFA;
+
+}
+.footer-button{
+    margin-top: 73px;
+    text-align: left;
+
+    margin-bottom: 209px;
+}

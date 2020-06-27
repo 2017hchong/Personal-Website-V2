@@ -1,0 +1,28 @@
+.button {
+    position: relative;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+
+    border: 3px solid #F3C435;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    color: #F3C435;
+}
+
+.isHovered {
+    color: #FFFFFA;
+}
+
+.filled {
+    background-color: #F3C435;
+}

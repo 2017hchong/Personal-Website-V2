@@ -1,0 +1,90 @@
+.job {
+    display: flex;
+    padding-bottom: 24px;
+    position: relative;
+    /*float: left;*/
+    width: 100%;
+
+    /*padding-bottom: 16px;*/
+}
+
+.ex-line {
+    margin: 0 auto;
+    margin-top: -10px;
+    /*margin-top: 40px;*/
+    /*height: 164px;*/
+    width: 0;
+    border: 2px solid #D12E70;
+    background-color: #D12E70;
+
+    height: 105%;
+}
+
+.graphics {
+    position: relative;
+    overflow: hidden;
+}
+
+.workplace {
+    text-align: right;
+    flex-basis: 229px;
+    flex-grow:0;
+    flex-shrink:0;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFA;
+    /*width: 20%;*/
+}
+.jobTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+
+    color: #FFFFFA;
+}
+
+.jobDescription {
+    text-align: left;
+}
+
+.date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: rgba(255, 255, 250, 0.8);
+
+    position: absolute;
+    top: 30px;
+}
+
+.circle {
+    background: #D12E70;
+    border: 3px solid #D12E70;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 11px;
+}
+
+.bullets {
+    margin-top: 43px;
+}
+
+.ex-images {
+    margin-top: 60px;
+}
+
+.underlineExperience {
+    text-decoration: underline;
+}

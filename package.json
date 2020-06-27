@@ -17,7 +17,8 @@
     "react-spring-lightbox": "^1.4.11",
     "simple-react-lightbox": "^3.2.3-2",
     "styled-components": "^5.1.1",
-    "typeface-jaldi": "0.0.71"
+    "typeface-jaldi": "0.0.71",
+    "websocket-extensions": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

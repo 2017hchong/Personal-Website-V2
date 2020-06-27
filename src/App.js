@@ -14,6 +14,8 @@ import Projects from "./components/projects";
 import Footer from "./components/footer";
 import Landing from "./components/landing";
 
+import HC from "./images/HC.png";
+
 import './App.css';
 
 class SectionLink extends React.Component {
@@ -54,7 +56,9 @@ class NavbarCustom extends React.Component {
                     {/*    height="30"*/}
                     {/*    className="d-inline-block align-top"*/}
                     {/*/>{' '}*/}
-                    <div className={"px-5 font-bold font-34 logo"}>HC</div>
+                    <div className={"px-5 font-bold font-34 logo"}>
+                        <img src={HC} alt={"Logo"}/>
+                    </div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" >

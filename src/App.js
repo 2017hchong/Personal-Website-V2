@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 import SimpleReactLightbox from './components/simple-react-lightbox-master/src/index.js';
 
 
-import resume from './Hayun_Chong_Resume.pdf';
+// import resume from '../public/Hayun_Chong_Resume.pdf';
 import About from './components/about';
 import Experience from "./components/experience";
 import Projects from "./components/projects";
@@ -77,7 +77,7 @@ class NavbarCustom extends React.Component {
 
 const SideBar = () => (
   <div className={"sidebar rotate px-3"}>
-      <a href={resume} className={"inline"}>resume</a>
+      <a href={"Hayun_Chong_Resume.pdf"} className={"inline"}>resume</a>
       <span className="dot"/>
       <a href={"https://www.linkedin.com/in/hayun-chong/"} className={"inline"}>linkedin</a>
       <span className="dot"/>

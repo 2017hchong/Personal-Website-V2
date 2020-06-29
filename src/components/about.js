@@ -4,7 +4,7 @@ import Header from './header';
 import Button from './button';
 
 import aboutMePic from '../images/aboutMe.png'
-import resume from '../Hayun_Chong_Resume.pdf';
+// import resume from '../../public/Hayun_Chong_Resume.pdf';
 import '../App.css';
 
 import './about.css'
@@ -21,7 +21,7 @@ const About = React.forwardRef((props, ref) => {
                     Outside of work and school, I can be found painting, playing guitar, and picking up new technologies, most recently dabbling with 3D animations in Blender.
                     <br/>
                     <div className={"left"}>
-                        <Button name={"View Resume"} clickhandler={resume}/>
+                        <Button name={"View Resume"} clickhandler={"Hayun_Chong_Resume.pdf"}/>
                     </div>
                 </div>
                 <div className={"inline photo"}>

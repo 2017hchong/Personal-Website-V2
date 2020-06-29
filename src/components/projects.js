@@ -16,8 +16,10 @@ import project1_1 from '../images/rubiks.gif'
 import project1_2 from '../images/project1-2.png'
 import project1_3 from '../images/project1-3.png'
 
-import soon1 from '../images/Soon1.png'
-import soon2 from '../images/Soon2.png'
+import covid1 from '../images/covid1.png'
+import covid2 from '../images/covid2.png'
+import covid3 from '../images/covid3.png'
+import covid4 from '../images/covid4.png'
 
 import project3_1 from '../images/project3-1.png'
 import project3_2 from '../images/project3-2.png'
@@ -103,74 +105,7 @@ class ProjectImages extends React.Component {
     }
 }
 
-//
-// const Logo = styled.div`
-//
-//     height: 24px;
-//     margin-right: 18px;
-//     margin-top: 75px;
-//
-//     display: inline-block;
-//
-//     &:hover {
-//         height: 31px;
-//         margin-top: 68px;
-//         margin-right: 11px;
-//     }
-// `;
-//
-// class ProjectDescription extends React.Component {
-//     render() {
-//
-//         let textline = this.props.description.map(function(value, i){
-//             let returnDiv;
-//             if(i===0){
-//                 returnDiv = <span key={i}>{value}</span>;
-//             } else {
-//                 returnDiv = <span key={i}><br/><br/>{value}</span>;
-//             }
-//             return (
-//                 returnDiv
-//             );
-//         });
-//         return (
-//             <div className={"descriptionCont"}>
-//                 <div className={"titleRow"}>
-//                     <span className={"projTitle"}>{this.props.title}</span>
-//                     <span className={"projType"}>{this.props.type}</span>
-//                 </div>
-//                 <div className={"projDescription"}>
-//                     {textline}
-//                 </div>
-//                 <div className={"logos"}>
-//                     {this.props.gitlink === undefined ? <div className={"logoPadding"}/> :
-//                         <Logo>
-//                             <a href={this.props.gitlink}>
-//                                 <img className="gitlogo" src={git} alt={"github link"}/>
-//                             </a>
-//                         </Logo>
-//                     }
-//                     {this.props.sitelink === undefined ? <div className={"logoPadding"}/> :
-//                         <Logo>
-//                             <a href={this.props.sitelink}>
-//                                 <img className="gitlogo" src={link} alt={"go to project"}/>
-//                             </a>
-//                         </Logo>
-//                     }
-//                 </div>
-//                 <div className={"projTech"}>
-//                     {this.props.technologies}
-//                 </div>
-//             </div>
-//         )
-//     }
-// }
-
 class Project extends React.Component {
-    constructor(props) {
-        super(props);
-        // this.state = {isHover: false, isClicked: false};
-    }
     render() {
         let desc = <ProjectDescription
             title={this.props.title}
@@ -227,14 +162,14 @@ const Projects = React.forwardRef((props, ref) => {
                     imageLeft={true}
                 />
                 <Project
-                    title={"SOON Movement Website"}
-                    type={"Student Organization Website"}
+                    title={"COVID-19 Chest X-ray Classifier"}
+                    type={"Multiclass CNN"}
                     description={[
-                        "Led a team of students to design and implement a web app for a student organization from scratch. " +
-                        "In charge of conducting user testing and feedback sessions to create the best user experience."
+                        "Created a multi-class classifier to diagnose COVID-19 and pneumonia cases from chest X-rays using a CNN. Although I experiemented with " +
+                        "transfer learning and various CNN architectures, the best accuracy was achieved with my own CNN."
                     ]}
-                    technologies={"React, React Router, Figma, GIT"}
-                    images={[soon1, soon2]}
+                    technologies={"Python, Numpy, OpenCV"}
+                    images={[covid1, covid2, covid3, covid4]}
                     imageLeft={false}
                 />
                 <Project

@@ -140,7 +140,7 @@ const Experience = React.forwardRef((props, ref) => {
                     bullets={[
                         "Implemented a GUI for an opensource Ultrasound system to allow for user-friendly interactions with a 3D image.",
                         "Redesigned the OpenGL rendering pipeline speed from 20FPS to 60FPS to draw a 1 million point cloud by utilizing geometry shaders and GPU memory.",
-                        "Established a connection between the rendering and data collection through the use of multi-threading for real-time interactions."
+                        "Established connection between the rendering and data collection using multi-threading for real-time interactions."
                     ]}
                     technologies={"C++, Git, OpenGL, GLSL"}
                     images={[
@@ -152,13 +152,25 @@ const Experience = React.forwardRef((props, ref) => {
                 />
 
                 <Job
+                    place={"LivePitch"}
+                    title={"Software Developer"}
+                    date={"October 2019 - January, 2020"}
+                    bullets={[
+                        "Restructured checkout logic and designed UI features for the shopping cart using React.",
+                        "Integrated calls to an updated database to save and receive user data by connecting the app to Firebase."
+                    ]}
+                    technologies={"React Native, Javascript, Firebase"}
+                    last={false}
+                />
+
+                <Job
                     place={"Amazon"}
                     title={"Software Development Engineer Intern"}
                     date={"May - August, 2019"}
                     bullets={[
-                        "Implemented and shipped precautionary error handling technology to short-circuit outdated functions to the updated calls automatically.",
+                        "Implemented and shipped precautionary error handling technology to short-circuit outdated functions automatically.",
                         "Optimized data storage on AWS by over 30% by restructuring repeated object data storage.",
-                        "Established method of remote connection to allow for easy debugging by creating a web server to make live requests"
+                        "Established method of remote connection to allow for easy debugging by using a web server to make live requests."
                     ]}
                     technologies={"Git, Java, AWS"}
                     last={true}
